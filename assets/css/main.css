@@ -992,7 +992,7 @@ hr {
 }
 
 #pricing .table:hover {
-  background: #ffffff;
+  /* background: #ffffff; */
   box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
 }
 
@@ -1633,7 +1633,7 @@ textarea {
     border-radius: 5px;
     text-align: center;
     color: #f63854;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 
 }
 .filter-button:hover
@@ -1670,8 +1670,9 @@ textarea {
   border: 1px solid #dee2e6;
   max-width: 100%;
 }
-.img-thumbnail-awards{
+.img-thumbnail-customer{
   width: 50%;
+  padding: 5px 5px 5px 5px;
 }
 .head-title-p{
   width: 70%;
@@ -1683,4 +1684,39 @@ textarea {
 .whoiam-title{
   font-size: 18px;
   }
+/*  */
+.bg-life{
+  background-image: url(../img/product/a.jpg);
+  background-size: cover; 
+  width: 290px;
+  height: 450px;
+}
+.bg-non{
+  background-image: url(../img/product/b.jpg);
+  background-size: cover; 
+  width: 290px;
+  height: 450px;
+}
+.bg-funds{
+  background-image: url(../img/product/c.jpg);
+  background-size: cover; 
+  width: 290px;
+  height: 450px;
+}
+.btn-common-product {
+  background-color: #f63854;
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+.btn-common-product:hover {
+  color: #f63854;
+  background: #eee;
+  border: 1px dotted #f63854;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+}
 /*  */
